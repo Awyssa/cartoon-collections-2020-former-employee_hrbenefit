@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 require 'pry'
 
 def roll_call_dwarves(dwarves)
   dwarves.map.with_index { |name, i| puts "#{i+1} #{name}"  }
+=======
+def roll_call_dwarves(dwarves)
+  i = 0
+  names = []
+  while i < dwarves.length
+    names << "#{i+1} #{dwarves}"
+    i + 1
+  end
+>>>>>>> 3dd84bd7590c497748ba9157bde3332d831dcce4
 end
 
 def summon_captain_planet(array)
